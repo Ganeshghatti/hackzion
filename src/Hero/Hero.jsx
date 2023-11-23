@@ -16,7 +16,7 @@ export default function Hero() {
       <p className="text-sm font-bold">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</p>
       <p className="text-sm font-bold py-4">Presents</p>
       <h1 className="hero-title">HACKZION</h1>
-      <p className="hero-quote text-2xl md:text:xl">Think, Code, Innovate</p>
+      <p className="hero-quote text-lg md:text:base">Think, Code, Innovate</p>
       <p className="hero-subheading">A NATIONAL LEVEL HACKATHON</p>
       <p className="text-base font-light"> 24 Hours Coding  -  19 & 20 December 2023  -  Deadline 10/12/2023</p>
     </section>
