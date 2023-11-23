@@ -8,11 +8,16 @@
   border: 1px solid #293c4b;
   cursor: pointer;
   transition: all 0.3s;
-  padding:0 0 40px 0;
+  padding: 0 0 40px 0;
 }
 
 .theme-card:hover {
   border: 1px solid #2f74b4;
   transform: translateY(-2px);
   opacity: 0.8;
+}
+@media (max-width: 770px) {
+  .theme-card p {
+    text-align: center;
+  }
 }

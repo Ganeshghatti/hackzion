@@ -122,7 +122,7 @@ export default function Patrons() {
             }}
           >
             <img
-              src="./Assets/Geetha.jpeg"
+              src="./Assets/placeholder.jpeg"
               className="w-full h-56 p-2"
               style={{ border: "2px solid #018cff", borderRadius: "50%" }}
               alt=""
