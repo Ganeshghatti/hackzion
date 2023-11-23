@@ -11,7 +11,7 @@ export default function Navbar() {
   };
   return (
     <nav
-      className="w-4/5 fixed top-6 flex justify-between px-10 items-center py-2 md:w-full md:top-0"
+      className="w-4/5 fixed top-6 flex justify-between px-10 items-center py-2 md:w-full md:top-0 z-50"
       style={{ gap: "15vw" }}
     >
       {menu && (
@@ -28,8 +28,8 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#teams" onClick={menuf}>
-                TEAMS
+              <a href="#themes" onClick={menuf}>
+                THEMES
               </a>
             </li>
             <li>
