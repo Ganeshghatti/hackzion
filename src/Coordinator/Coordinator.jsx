@@ -14,7 +14,7 @@ export default function Coordinator() {
       className="flex justify-between w-full md:flex-col py-12 opacity-100 z-10"
       style={{ backgroundColor: "#09162F" }}
     >
-      <div className="flex md:items-center flex-col w-2/5 pl-20 gap-6">
+      <div className="flex md:items-center flex-col w-2/5 pl-20 gap-6 md:w-11/12">
         <p>Chair Organizing Committee</p>
         <div>
           <p> Dr. V. Mareeswari</p>
@@ -25,10 +25,10 @@ export default function Coordinator() {
           <p> Asst. Professor, CSE, AMCEC</p>
         </div>
       </div>
-      <div className="flwx flex-col md:items-center w-1/4">
+      <div className="flwx flex-col md:items-center w-1/4 md:w-11/12">
         <p>Programme Coordinator</p>
       </div>
-      <div className="flwx flex-col md:items-center w-1/4">
+      <div className="flwx flex-col md:items-center w-1/4 md:w-11/12">
         <p>Student Coordinator</p>
         <p>
           <a href="tel:7899356719">Vishnu M R : 7899356719</a>
