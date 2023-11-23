@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.hero-title {
+  font-size: 72px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(-180deg, #018cff 0%, #b4fbff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Tektur", cursive;
+  letter-spacing: 4px;
+  animation: text 1s ease-in-out infinite;
+}
+@media (max-width: 770px) {
+  .hero-title {
+    font-size: 48px;
+  }
+  .hero-subheading {
+    font-size: 28px;
+  }
+}
+.hero-quote {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.hero-subheading {
+  font-family: "Tektur", cursive;
+  letter-spacing: 4px;
+  font-weight: 800;
+  font-size: 36px;
+}
+@keyframes text {
+  0% {
+    background: -webkit-linear-gradient(-180deg, #018cff 0%, #b4fbff 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  50% {
+    background: -webkit-linear-gradient(-180deg, #b4fbff 0%, #018cff 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+#hero p {
+  text-align: center;
+}
