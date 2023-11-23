@@ -115,9 +115,9 @@ export default function App() {
         <Navbar />
         <Hero />
         <Themes />
-        <Rules/>
+        <Rules />
         <Timeline />
-        <Patrons/>
+        <Patrons />
         <Coordinator />
         <Footer />
       </div>
