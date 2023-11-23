@@ -4,6 +4,7 @@ import { loadSlim } from "tsparticles-slim";
 import Navbar from "./Navbar/Navbar";
 import Hero from "./Hero/Hero";
 import Teams from "./Teams/Teams";
+import Rules from "./Rules/Rules";
 import Timeline from "./Timeline/Timeline";
 import Coordinator from "./Coordinator/Coordinator";
 import Footer from "./Footer/Footer";
@@ -109,10 +110,11 @@ export default function App() {
         loaded={particlesLoaded}
         options={particleOptions}
       />
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center gap-20">
         <Navbar />
         <Hero />
         <Teams />
+        <Rules/>
         <Timeline />
         <Coordinator />
         <Footer />
