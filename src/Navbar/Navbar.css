@@ -1,0 +1,43 @@
+nav {
+  background-color: #0b1529ee;
+  border: 1px solid #184671;
+}
+@media (min-width: 770px) {
+  nav {
+    border-radius: 20px;
+  }
+}
+
+nav li:hover {
+  color: #018cff;
+}
+nav ul li a {
+  font-size: 17.5px;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Tektur", cursive;
+  cursor: pointer;
+  font-weight: 400;
+}
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #018cff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+nav ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.nav-mobile-menu {
+  background-color: #0b1529f5 !important;
+}
