@@ -3,7 +3,7 @@ import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 import Navbar from "./Navbar/Navbar";
 import Hero from "./Hero/Hero";
-import Teams from "./Teams/Teams";
+import Themes from "./Themes/Themes";
 import Rules from "./Rules/Rules";
 import Timeline from "./Timeline/Timeline";
 import Coordinator from "./Coordinator/Coordinator";
@@ -114,7 +114,7 @@ export default function App() {
       <div className="flex flex-col items-center gap-20">
         <Navbar />
         <Hero />
-        <Teams />
+        <Themes />
         <Rules/>
         <Timeline />
         <Patrons/>
