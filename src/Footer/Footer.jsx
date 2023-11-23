@@ -9,11 +9,10 @@ import {
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#09162F" }} className="w-full z-10 flex justify-center items-center">
-      Made by the Ganesh Ghatti
+    <footer style={{ backgroundColor: "#09162F" }} className="w-full z-10 flex justify-center items-center gap-6">
+      Made by Ganesh Ghatti
       <a
-        href="https://www.linkedin.com/company/phicsit/"
-        target="_blank"
+        href="https://www.linkedin.com/in/ganesh-ghatti/"
         rel="noreferrer"
       >
         <FaLinkedinIn className="social-icon text-white" />
