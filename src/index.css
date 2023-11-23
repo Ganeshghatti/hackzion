@@ -18,13 +18,14 @@ body {
 }
 h2 {
   font-size: 30px;
+  padding: 0 10vw;
   text-transform: uppercase;
   width: fit-content;
   margin: auto;
   font-family: "Tektur", cursive;
   text-align: center;
   color: #629eff;
-  padding-bottom: 35px;
+  padding-bottom: 25px;
   background: -webkit-linear-gradient(-180deg, #209cff 0%, #68e0cf 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;

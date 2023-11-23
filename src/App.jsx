@@ -10,6 +10,7 @@ import Coordinator from "./Coordinator/Coordinator";
 import Footer from "./Footer/Footer";
 import tag from "./Assets/tag.png";
 import circle from "./Assets/circle.png";
+import Patrons from "./Patrons/Patrons";
 
 export default function App() {
   const particlesInit = useCallback(async (engine) => {
@@ -116,6 +117,7 @@ export default function App() {
         <Teams />
         <Rules/>
         <Timeline />
+        <Patrons/>
         <Coordinator />
         <Footer />
       </div>
