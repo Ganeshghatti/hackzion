@@ -8,7 +8,7 @@ export default function Hero() {
       className="flex flex-col items-center justify-center h-screen w-screen"
       style={{padding:"0 10vw"}}
     >
-      <p className="text-5xl font-bold md:2xl">AMC ENGINEERING COLLEGE</p>
+      <p className="text-5xl font-bold md:xl">AMC ENGINEERING COLLEGE</p>
       <p className="text-sm font-thin md:text-xs">
         Affiliated to VTU, Belagavi | Approved by AICTE | NAAC A+ and NBA
         ACCREDITED, Bannerghatta Main Road, Bangalore-560083

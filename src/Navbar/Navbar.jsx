@@ -69,7 +69,7 @@ export default function Navbar() {
         </li>
       </ul>
       <FaBarsStaggered className={`hidden cursor-pointer md:block ${!menu ? 'block' : 'hidden'}`} onClick={menuf} />
-      <FaXmark className={`z-50  cursor-pointer fixed top-10 right-10 ${menu ? 'block' : 'hidden'}`} />
+      <FaXmark className={`z-50  cursor-pointer fixed top-10 right-10 ${menu ? 'block' : 'hidden'}`} onClick={menuf}/>
     </nav>
   );
 }
