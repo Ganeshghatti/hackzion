@@ -10,6 +10,7 @@
   font-family: "Tektur", cursive;
   letter-spacing: 4px;
   animation: text 1s ease-in-out infinite;
+  line-height: 1;
 }
 
 .hero-quote {
@@ -44,6 +45,6 @@
     font-size: 48px;
   }
   .hero-subheading {
-    font-size: 18px;
+    font-size: 22px;
   }
 }

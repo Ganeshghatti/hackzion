@@ -15,18 +15,20 @@ export default function Coordinator() {
       style={{ backgroundColor: "#09162F" }}
     >
       <div className="flex md:items-center md:text-center flex-col w-2/5 pl-20 gap-6 md:w-11/12 md:pl-0">
-        <p className="text-2xl font-bold md:text-xl">Chair Organizing Committee</p>
+        <p className="text-2xl font-bold md:text-xl">Convener</p>
         <div>
           <p className=""> Dr. V. Mareeswari</p>
           <p> HOD, CSE, AMCEC, Bengaluru.</p>
         </div>
-        <div>
-          <p> Mr. Sanjeevan K</p>
-          <p> Asst. Professor, CSE, AMCEC</p>
-        </div>
       </div>
-      <div className="flex flex-col md:items-center w-1/4 md:w-11/12">
+      <div className="flex flex-col md:items-center w-1/4 md:w-11/12 gap-6">
         <p className="text-2xl font-bold md:text-xl">Programme Coordinator</p>
+        <p>
+          <a href="tel:8088956959">Mr. Sanjeevan K : 8088956959</a>
+        </p>
+        <p>
+          <a href="tel:9980055330">Dr.Sridhar CS : 9980055330</a>
+        </p>
       </div>
       <div className="flex flex-col md:items-center w-1/4 md:w-11/12 gap-6">
         <p className="text-2xl font-bold md:text-xl">Student Coordinator</p>
