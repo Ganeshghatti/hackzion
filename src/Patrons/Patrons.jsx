@@ -15,7 +15,7 @@ export default function Patrons() {
             }}
           >
             <img
-              src="./Assets/placeholder.jpeg"
+              src="./Assets/Paramahamsa.jpeg"
               className="w-full h-56 p-2"
               style={{ border: "2px solid #018cff", borderRadius: "50%" }}
               alt=""
@@ -41,7 +41,7 @@ export default function Patrons() {
             }}
           >
             <img
-              src="./Assets/placeholder.jpeg"
+              src="./Assets/Geetha.jpeg"
               className="w-full h-56 p-2"
               style={{ border: "2px solid #018cff", borderRadius: "50%" }}
               alt=""
@@ -67,7 +67,7 @@ export default function Patrons() {
             }}
           >
             <img
-              src="./Assets/placeholder.jpeg"
+              src="./Assets/Monica.jpeg"
               className="w-full h-56 p-2"
               style={{ border: "2px solid #018cff", borderRadius: "50%" }}
               alt=""
@@ -93,7 +93,7 @@ export default function Patrons() {
             }}
           >
             <img
-              src="./Assets/placeholder.jpeg"
+              src="./Assets/Rahul.jpeg"
               className="w-full h-56 p-2"
               style={{ border: "2px solid #018cff", borderRadius: "50%" }}
               alt=""
@@ -111,10 +111,7 @@ export default function Patrons() {
         </div>
       </div>
       <h2 className="mt-36">Patrons</h2>
-      <div
-        className="w-4/5 md:w-11/12 flex justify-center gap-16 lg:justify-center md:justify-center items-center md:flex-wrap lg:flex-wrap sm:flex-col lg:gap-10 md:gap-10"
-        
-      >
+      <div className="w-4/5 md:w-11/12 flex justify-center gap-16 lg:justify-center md:justify-center items-center md:flex-wrap lg:flex-wrap sm:flex-col lg:gap-10 md:gap-10">
         <div className="flex flex-col items-center justify-center w-1/5 lg:w-2/5 md:w-4/5">
           <div
             className="w-56 h-56 "
@@ -125,7 +122,7 @@ export default function Patrons() {
             }}
           >
             <img
-              src="./Assets/placeholder.jpeg"
+              src="./Assets/Geetha.jpeg"
               className="w-full h-56 p-2"
               style={{ border: "2px solid #018cff", borderRadius: "50%" }}
               alt=""
