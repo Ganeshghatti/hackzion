@@ -53,7 +53,7 @@ export default function Navbar() {
                 <Button
                   variant="contained"
                   style={{ backgroundColor: "#018cff" }}
-                  className="p-16 mx-4"
+                  className="p-4 mx-4"
                 >
                   Register Now!
                 </Button>
