@@ -9,7 +9,7 @@ import "./Themes.css";
 
 export default function Themes() {
   return (
-    <section id="themes" className="flex flex-col gap-12">
+    <section id="themes" className="flex flex-col gap-12 py-14">
       <h2>Themes to Hack</h2>
       <div className="flex justify-center gap-2 flex-wrap w-full">
         <Card sx={{ maxWidth: 325}} className="card theme-card">

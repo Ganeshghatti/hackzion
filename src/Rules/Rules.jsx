@@ -7,7 +7,7 @@ export default function Rules() {
   };
 
   return (
-    <section id="rules" className="flex flex-col items-center gap-8">
+    <section id="rules" className="flex flex-col items-center gap-8 py-14">
       <h2>Rules & Regulations</h2>
       <ol
         className="w-3/4 md:w-11/12 px-20 py-10 md:px-10  rounded"

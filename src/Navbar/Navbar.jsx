@@ -21,29 +21,29 @@ export default function Navbar() {
             style={{ backgroundColor: "rgba(0, 0, 0, 0.353)" }}
             onClick={menuf}
           />
-          <ul className="w-3/4 gap-8 fixed right-0 top-0 h-screen z-50 flex flex-col justify-center items-center bg-black nav-mobile-menu" >
+          <ul className="w-3/4 gap-8 fixed right-0 top-0 h-screen z-50 flex flex-col justify-center items-center bg-black nav-mobile-menu">
             <li>
-              <a href="#home" onClick={menuf}>
+              <a href="/#home" onClick={menuf}>
                 HOME
               </a>
             </li>
             <li>
-              <a href="#themes" onClick={menuf}>
+              <a href="/#themes" onClick={menuf}>
                 THEMES
               </a>
             </li>
             <li>
-              <a href="#rules" onClick={menuf}>
+              <a href="/#rules" onClick={menuf}>
                 RULES
               </a>
             </li>
             <li>
-              <a href="#co-ordinators" onClick={menuf}>
-                CO-ORDINATORS
+              <a href="/#patrons" onClick={menuf}>
+                PATRONS
               </a>
             </li>
             <li>
-              <a href="#contact" onClick={menuf}>
+              <a href="/#contact" onClick={menuf}>
                 CONTACT
               </a>
             </li>
@@ -53,23 +53,33 @@ export default function Navbar() {
       <img src={logo} alt="" className="w-16" />
       <ul className="flex flex-1 z-50 justify-around md:hidden">
         <li>
-          <a href="#home">HOME</a>
+          <a href="/#hero">HOME</a>
         </li>
         <li>
-          <a href="#teams">TEAMS</a>
+          <a href="/#themes">THEMES</a>
         </li>
         <li>
-          <a href="#rules">RULES</a>
+          <a href="/#rules">RULES</a>
         </li>
         <li>
-          <a href="#co-ordinators">CO-ORDINATORS</a>
+          <a href="/#patrons">PATRONS</a>
         </li>
         <li>
-          <a href="#contact">CONTACT</a>
+          <a href="/#contact">CONTACT</a>
         </li>
       </ul>
-      <FaBarsStaggered className={`hidden cursor-pointer md:block ${!menu ? 'block' : 'hidden'}`} onClick={menuf} />
-      <FaXmark className={`z-50  cursor-pointer fixed top-10 right-10 ${menu ? 'block' : 'hidden'}`} onClick={menuf}/>
+      <FaBarsStaggered
+        className={`hidden cursor-pointer md:block ${
+          !menu ? "block" : "hidden"
+        }`}
+        onClick={menuf}
+      />
+      <FaXmark
+        className={`z-50  cursor-pointer fixed top-10 right-10 ${
+          menu ? "block" : "hidden"
+        }`}
+        onClick={menuf}
+      />
     </nav>
   );
 }

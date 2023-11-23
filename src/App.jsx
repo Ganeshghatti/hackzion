@@ -111,7 +111,7 @@ export default function App() {
         loaded={particlesLoaded}
         options={particleOptions}
       />
-      <div className="flex flex-col items-center gap-20">
+      <div className="flex flex-col items-center">
         <Navbar />
         <Hero />
         <Themes />
