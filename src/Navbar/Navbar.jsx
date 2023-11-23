@@ -3,6 +3,7 @@ import logo from "./HackZionLogo.png";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
 import "./Navbar.css";
+import Button from "@mui/material/Button";
 
 export default function Navbar() {
   const [menu, setmenu] = useState(false);
@@ -12,7 +13,7 @@ export default function Navbar() {
   return (
     <nav
       className="w-4/5 fixed top-6 flex justify-between px-10 items-center py-2 md:w-full md:top-0 z-50"
-      style={{ gap: "15vw" }}
+      style={{ gap: "10vw" }}
     >
       {menu && (
         <>
@@ -47,11 +48,25 @@ export default function Navbar() {
                 CONTACT
               </a>
             </li>
+            <li>
+              <a href="/#contact">
+                <Button
+                  variant="contained"
+                  style={{ backgroundColor: "#018cff" }}
+                  className="p-16 mx-4"
+                >
+                  Register Now!
+                </Button>
+              </a>
+            </li>
           </ul>
         </>
       )}
       <img src={logo} alt="" className="w-16" />
-      <ul className="flex flex-1 z-50 justify-around md:hidden">
+      <ul
+        className="flex z-50 justify-around items-center md:hidden"
+        style={{ gap: "3vw" }}
+      >
         <li>
           <a href="/#hero">HOME</a>
         </li>
@@ -66,6 +81,17 @@ export default function Navbar() {
         </li>
         <li>
           <a href="/#contact">CONTACT</a>
+        </li>
+        <li className="p-4 mx-4">
+          <a href="/#contact">
+            <Button
+              variant="contained"
+              style={{ backgroundColor: "#018cff" }}
+              className="p-4 mx-4"
+            >
+              Register Now!
+            </Button>
+          </a>
         </li>
       </ul>
       <FaBarsStaggered
