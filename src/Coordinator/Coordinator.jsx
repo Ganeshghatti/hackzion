@@ -22,7 +22,7 @@ export default function Coordinator() {
         </div>
       </div>
       <div className="flex flex-col md:items-center w-1/4 md:w-11/12 gap-6">
-        <p className="text-2xl font-bold md:text-xl">Programme Coordinator</p>
+        <p className="text-2xl font-bold md:text-xl">Faculty Coordinator</p>
         <p>
           <a href="tel:8088956959">Mr. Sanjeevan K : 8088956959</a>
         </p>
