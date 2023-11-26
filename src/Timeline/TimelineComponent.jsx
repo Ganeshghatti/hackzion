@@ -28,7 +28,7 @@ export default function TimelineComponent() {
             sx={{ m: "auto 0" }}
             align="right"
             className="text-white"
-            style={{fontSize:"20px"}}
+            style={{ fontSize: "20px" }}
           >
             27 Nov
           </TimelineOppositeContent>
@@ -39,13 +39,13 @@ export default function TimelineComponent() {
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "32px", px: 2 }}>
-            <Typography variant="h6" component="span">
+          <TimelineContent sx={{ py: "32px" }}>
+            <p variant="h6" className="text-2xl md:text-lg" component="span">
               Registration starts
-            </Typography>
-            <Typography>
+            </p>
+            <p className="text-sm md:text-xs">
               You can register by clicking on "Register Now" button given above
-            </Typography>
+            </p>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -54,13 +54,13 @@ export default function TimelineComponent() {
 
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "32px", px: 2 }}>
-            <Typography variant="h6" component="span">
+          <TimelineContent sx={{ py: "32px"}}>
+            <p variant="h6" className="text-2xl md:text-lg" component="span">
               Registration starts at 9:00 AM
-            </Typography>
-            <Typography>
+            </p>
+            <p className="text-sm md:text-xs">
               Follow our social media handles for latest updates.
-            </Typography>
+            </p>
           </TimelineContent>
         </TimelineItem>
 
@@ -69,7 +69,7 @@ export default function TimelineComponent() {
             sx={{ m: "auto 0" }}
             align="right"
             className="text-white"
-            style={{fontSize:"20px"}}
+            style={{ fontSize: "20px" }}
           >
             10 Dec
           </TimelineOppositeContent>
@@ -80,11 +80,12 @@ export default function TimelineComponent() {
             </TimelineDot>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "32px", px: 2 }}>
-            <Typography variant="h6" component="span">
+          <TimelineContent sx={{ py: "32px"}}>
+            <p variant="h6" className="text-2xl md:text-lg" component="span">
               Registration ends
-            </Typography>
-            <Typography>Last date to register for the event</Typography>
+            </p>
+            <p className="text-sm md:text-xs">
+Last date to register for the event</p>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -92,7 +93,7 @@ export default function TimelineComponent() {
             sx={{ m: "auto 0" }}
             align="right"
             className="text-white"
-            style={{fontSize:"20px"}}
+            style={{ fontSize: "20px" }}
           >
             14 Dec
           </TimelineOppositeContent>
@@ -103,14 +104,14 @@ export default function TimelineComponent() {
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "32px", px: 2 }}>
-            <Typography variant="h6" component="span">
+          <TimelineContent sx={{ py: "32px"}}>
+            <p variant="h6" className="text-2xl md:text-lg" component="span">
               Uploading shortlisted teams
-            </Typography>
-            <Typography>
+            </p>
+            <p className="text-sm md:text-xs">
               The screening committee will shortlist the teams, and the 40 best
-              ideas will be selected{" "}
-            </Typography>
+              ideas will be selected
+            </p>
           </TimelineContent>
         </TimelineItem>
 
@@ -119,7 +120,7 @@ export default function TimelineComponent() {
             sx={{ m: "auto 0" }}
             align="right"
             className="text-white"
-            style={{fontSize:"20px"}}
+            style={{ fontSize: "20px" }}
           >
             16 Dec
           </TimelineOppositeContent>
@@ -130,13 +131,13 @@ export default function TimelineComponent() {
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "32px", px: 2 }}>
-            <Typography variant="h6" component="span">
+          <TimelineContent sx={{ py: "32px"}}>
+            <p variant="h6" className="text-2xl md:text-lg" component="span">
               Last day for Payements
-            </Typography>
-            <Typography>
+            </p>
+            <p className="text-sm md:text-xs">
               Shortlisted Teams must pay 500Rs for registration
-            </Typography>
+            </p>
           </TimelineContent>
         </TimelineItem>
 
@@ -145,7 +146,7 @@ export default function TimelineComponent() {
             sx={{ m: "auto 0" }}
             align="right"
             className="text-white"
-            style={{fontSize:"20px"}}
+            style={{ fontSize: "20px" }}
           >
             19 Dec
           </TimelineOppositeContent>
@@ -156,10 +157,10 @@ export default function TimelineComponent() {
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "32px", px: 2 }}>
-            <Typography variant="h6" component="span">
+          <TimelineContent sx={{ py: "32px"}}>
+            <p variant="h6" className="text-2xl md:text-lg" component="span">
               Start of Hackathon
-            </Typography>
+            </p>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
