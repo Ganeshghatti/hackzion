@@ -82,7 +82,7 @@ export default function TimelineComponent() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "32px", px: 2 }}>
             <Typography variant="h6" component="span">
-              Registration end
+              Registration ends
             </Typography>
             <Typography>Last date to register for the event</Typography>
           </TimelineContent>
@@ -91,8 +91,8 @@ export default function TimelineComponent() {
           <TimelineOppositeContent
             sx={{ m: "auto 0" }}
             align="right"
-            variant="body2"
-            color="text.secondary"
+            className="text-white"
+            style={{fontSize:"20px"}}
           >
             14 Dec
           </TimelineOppositeContent>
