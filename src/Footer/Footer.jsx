@@ -6,6 +6,7 @@ import {
   FaTelegram,
   FaTwitter,
 } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -20,7 +21,7 @@ export default function Footer() {
         className="flex justify-center items-center gap-6 w-3/4 py-6 text-xl font-bold md:text-lg"
       >
         Made by Ganesh Ghatti
-        <FaLinkedinIn className="social-icon text-white" />
+        <FaLinkedin className="social-icon text-white"/>
       </a>
     </footer>
   );
