@@ -5,7 +5,7 @@ import Navbar from "./Navbar/Navbar";
 import Hero from "./Hero/Hero";
 import Themes from "./Themes/Themes";
 import Rules from "./Rules/Rules";
-import Timeline from "./Timeline/Timeline";
+import Timeline from "./Timeline/TimelineComponent";
 import Coordinator from "./Coordinator/Coordinator";
 import Footer from "./Footer/Footer";
 import tag from "./Assets/tag.png";
