@@ -1,4 +1,4 @@
-import React, { useCallback } from "react";
+import React, { useCallback,useEffect } from "react";
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 import Navbar from "./Navbar/Navbar";
@@ -98,7 +98,33 @@ export default function App() {
     },
     detectRetina: true,
   };
+  useEffect(() => {
+    // Function to handle scrolling to the target section
+    const scrollToSection = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const targetElement = document.querySelector(hash);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    };
 
+    // Scroll to the section on mount
+    scrollToSection();
+
+    // Add event listener to handle scrolling when the URL changes
+    const handleHashChange = () => {
+      scrollToSection();
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+
+    // Remove the event listener when the component is unmounted
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, []);
   return (
     <div
       style={{
