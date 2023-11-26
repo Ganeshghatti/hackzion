@@ -34,10 +34,10 @@ export default function Coordinator() {
           <a href="tel:9901160630">Mrs. Veena Bhat : 9901160630</a>
         </p>
         <p>
-          <a href="tel:8088956959">Mr. Sanjeevan K : 8088956959</a>
+          <a href="tel:9980055330">Dr.Sridhar CS : 9980055330</a>
         </p>
         <p>
-          <a href="tel:9980055330">Dr.Sridhar CS : 9980055330</a>
+          <a href="tel:8088956959">Mr. Sanjeevan K : 8088956959</a>
         </p>
       </div>
       <div className="flex flex-col md:items-center w-1/4 md:w-11/12 gap-6">
