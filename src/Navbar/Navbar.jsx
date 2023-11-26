@@ -48,8 +48,7 @@ export default function Navbar() {
                 CONTACT
               </a>
             </li>
-            <li>
-              <a href="/#contact">
+              <a href="https://forms.gle/yqieNHNwmJGrnBcE9">
                 <Button
                   variant="contained"
                   style={{ backgroundColor: "#018cff" }}
@@ -58,7 +57,6 @@ export default function Navbar() {
                   Register Now!
                 </Button>
               </a>
-            </li>
           </ul>
         </>
       )}
