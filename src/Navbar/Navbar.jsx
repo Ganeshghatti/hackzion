@@ -53,7 +53,7 @@ export default function Navbar() {
                 <Button
                   variant="contained"
                   style={{ backgroundColor: "#018cff" }}
-                  className="p-4 mx-4"
+                  className="hero-btn text-lg"
                 >
                   Register Now!
                 </Button>
@@ -65,7 +65,7 @@ export default function Navbar() {
       <img src={logo} alt="" className="w-16" />
       <ul
         className="flex z-50 justify-around items-center md:hidden"
-        style={{ gap: "3vw" }}
+        style={{ gap: "2vw" }}
       >
         <li>
           <a href="/#hero">HOME</a>
@@ -82,17 +82,15 @@ export default function Navbar() {
         <li>
           <a href="/#contact">CONTACT</a>
         </li>
-        <li className="p-4 mx-4">
-          <a href="/#contact">
+          <a href="https://forms.gle/yqieNHNwmJGrnBcE9" target="_blank">
             <Button
               variant="contained"
               style={{ backgroundColor: "#018cff" }}
-              className="p-4 mx-4"
+              className="hero-btn"
             >
               Register Now!
             </Button>
           </a>
-        </li>
       </ul>
       <FaBarsStaggered
         className={`hidden cursor-pointer md:block ${

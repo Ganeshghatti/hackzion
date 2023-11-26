@@ -12,7 +12,7 @@ nav li:hover {
   color: #018cff;
 }
 nav ul li a {
-  font-size: 17.5px;
+  font-size: 16px;
   letter-spacing: 1px;
   transition: all 0.3s;
   position: relative;
@@ -40,4 +40,14 @@ nav ul li a:hover::after {
 }
 .nav-mobile-menu {
   background-color: #0b1529f5 !important;
+}
+.hero-btn {
+  height: 40px;
+  text-align: center;
+  background-color: #3770FF !important;
+  color: #fff;
+  padding: 12px 30px !important;
+  border-radius: 5px;
+  font-weight: 400 !important;
+  transition: all 0.3s ease-in-out !important;
 }

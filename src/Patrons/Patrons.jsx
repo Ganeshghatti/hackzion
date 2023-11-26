@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Patrons() {
   return (
-    <section id="patrons" className="flex flex-col gap-8 w-full items-center py-14">
+    <section
+      id="patrons"
+      className="flex flex-col gap-8 w-full items-center py-14"
+    >
       <h2>Cheif Patrons</h2>
       <div className="w-4/5 md:w-11/12 flex justify-between lg:justify-center md:justify-center items-center md:flex-wrap lg:flex-wrap sm:flex-col lg:gap-10 md:gap-10">
         <div className="flex flex-col items-center justify-center w-1/5 lg:w-2/5 md:w-4/5">
@@ -111,7 +114,8 @@ export default function Patrons() {
         </div>
       </div>
       <h2 className="mt-36">Patrons</h2>
-      <div className="w-4/5 md:w-11/12 flex justify-center gap-16 lg:justify-center md:justify-center items-center md:flex-wrap lg:flex-wrap sm:flex-col lg:gap-10 md:gap-10">
+
+      <div className="w-4/5 md:w-11/12 flex justify-center lg:justify-center md:justify-center items-center md:flex-wrap lg:flex-wrap sm:flex-col lg:gap-10 md:gap-10" style={{gap:"7vw"}}>
         <div className="flex flex-col items-center justify-center w-1/5 lg:w-2/5 md:w-4/5">
           <div
             className="w-56 h-56 "
@@ -122,8 +126,8 @@ export default function Patrons() {
             }}
           >
             <img
-              src="./Assets/placeholder.jpeg"
-              className="w-full h-56 p-2"
+              src="./Assets/princi.jpg"
+              className="w-full h-56 p-2 object-cover"
               style={{ border: "2px solid #018cff", borderRadius: "50%" }}
               alt=""
             />
@@ -138,9 +142,10 @@ export default function Patrons() {
             AMCEC, Bengaluru
           </p>
         </div>
+
         <div className="flex flex-col items-center justify-center w-1/5 lg:w-2/5 md:w-4/5">
           <div
-            className="w-56 h-56 "
+            className="w-56 h-56"
             style={{
               boxShadow: "0px 10px 20px #0b1936",
               backgroundColor: "#018cff",
@@ -148,8 +153,8 @@ export default function Patrons() {
             }}
           >
             <img
-              src="./Assets/placeholder.jpeg"
-              className="w-full h-56 p-2"
+              src="./Assets/viceprinci.jpg"
+              className="w-full h-56 p-2 object-cover"
               style={{ border: "2px solid #018cff", borderRadius: "50%" }}
               alt=""
             />
@@ -162,6 +167,30 @@ export default function Patrons() {
           </p>
           <p className="text-base md:text-sm font-light text-center">
             AMCEC, Bengaluru
+          </p>
+        </div>
+
+        <div className="flex flex-col items-center justify-center w-1/5 lg:w-2/5 md:w-4/5">
+          <div
+            className="w-56 h-56 "
+            style={{
+              boxShadow: "0px 10px 20px #0b1936",
+              backgroundColor: "#018cff",
+              borderRadius: "50%",
+            }}
+          >
+            <img
+              src="./Assets/mara.jpg"
+              className="w-full h-56 p-2"
+              style={{ border: "2px solid #018cff", borderRadius: "50%" }}
+              alt=""
+            />
+          </div>
+          <p className="text-xl md:text-lg font-bold text-center">
+            Dr. V. Mareeswari{" "}
+          </p>
+          <p className="text-base md:text-sm font-medium text-center">
+            Head of Department, CSE
           </p>
         </div>
       </div>

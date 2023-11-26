@@ -5,7 +5,9 @@ import {
   FaLinkedinIn,
   FaTelegram,
   FaTwitter,
+  FaFacebook,
 } from "react-icons/fa6";
+import logo from "./HackZionLogo.png";
 
 export default function Coordinator() {
   return (
@@ -15,14 +17,22 @@ export default function Coordinator() {
       style={{ backgroundColor: "#09162F" }}
     >
       <div className="flex md:items-center md:text-center flex-col w-2/5 pl-20 gap-6 md:w-11/12 md:pl-0">
-        <p className="text-2xl font-bold md:text-xl">Convener</p>
-        <div>
-          <p className=""> Dr. V. Mareeswari</p>
-          <p> HOD, CSE, AMCEC, Bengaluru.</p>
+        <img src={logo} alt="" className="w-20" />
+        <p className="text-xl font-bold">Powered by AMC</p>
+        <div className="flex gap-3">
+          <a href="https://www.facebook.com/profile.php?id=61554189680265">
+            <FaFacebook className="social-icon text-white text-3xl" />
+          </a>
+          <a href="https://www.instagram.com/hackzion_amcec/?next=%2F">
+            <FaInstagram className="social-icon text-white text-3xl" />
+          </a>
         </div>
       </div>
       <div className="flex flex-col md:items-center w-1/4 md:w-11/12 gap-6">
         <p className="text-2xl font-bold md:text-xl">Faculty Coordinator</p>
+        <p>
+          <a href="tel:9901160630">Mrs. Veena Bhat : 9901160630</a>
+        </p>
         <p>
           <a href="tel:8088956959">Mr. Sanjeevan K : 8088956959</a>
         </p>
@@ -42,7 +52,7 @@ export default function Coordinator() {
           <a href="tel:9902110945">Arushi Arunkumar : 9902110945 </a>
         </p>
         <p>
-          <a href="tel:7870810384">Ekata Kumari : 7870810384</a>
+          <a href="tel:7870810384">Ekta Kumari : 7870810384</a>
         </p>
       </div>
     </section>
