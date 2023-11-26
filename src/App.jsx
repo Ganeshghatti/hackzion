@@ -11,7 +11,6 @@ import Footer from "./Footer/Footer";
 import tag from "./Assets/tag.png";
 import circle from "./Assets/circle.png";
 import Patrons from "./Patrons/Patrons";
-import { useLocation } from "react-router-dom";
 
 export default function App() {
   const particlesInit = useCallback(async (engine) => {
@@ -99,18 +98,7 @@ export default function App() {
     },
     detectRetina: true,
   };
-  const location = useLocation();
 
-  useEffect(() => {
-    if (location.hash) {
-      const targetSection = document.querySelector(location.hash);
-      if (targetSection) {
-        targetSection.scrollIntoView({ behavior: "smooth" });
-      }
-    } else {
-      window.scrollTo(0, 0);
-    }
-  }, [location]);
   return (
     <div
       style={{
