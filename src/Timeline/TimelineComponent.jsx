@@ -95,7 +95,7 @@ Last date to register for the event</p>
             className="text-white"
             style={{ fontSize: "20px" }}
           >
-            14 Dec
+            13 Dec
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
@@ -122,7 +122,7 @@ Last date to register for the event</p>
             className="text-white"
             style={{ fontSize: "20px" }}
           >
-            16 Dec
+            15 Dec
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
