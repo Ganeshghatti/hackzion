@@ -17,6 +17,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import RepeatIcon from "@mui/icons-material/Repeat";
 import Typography from "@mui/material/Typography";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
 export default function TimelineComponent() {
   return (
@@ -54,7 +55,7 @@ export default function TimelineComponent() {
 
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "32px"}}>
+          <TimelineContent sx={{ py: "32px" }}>
             <p variant="h6" className="text-2xl md:text-lg" component="span">
               Registration starts at 9:00 AM
             </p>
@@ -80,12 +81,13 @@ export default function TimelineComponent() {
             </TimelineDot>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "32px"}}>
+          <TimelineContent sx={{ py: "32px" }}>
             <p variant="h6" className="text-2xl md:text-lg" component="span">
               Registration ends
             </p>
             <p className="text-sm md:text-xs">
-Last date to register for the event</p>
+              Last date to register for the event
+            </p>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -104,7 +106,7 @@ Last date to register for the event</p>
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "32px"}}>
+          <TimelineContent sx={{ py: "32px" }}>
             <p variant="h6" className="text-2xl md:text-lg" component="span">
               Uploading shortlisted teams
             </p>
@@ -131,7 +133,7 @@ Last date to register for the event</p>
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "32px"}}>
+          <TimelineContent sx={{ py: "32px" }}>
             <p variant="h6" className="text-2xl md:text-lg" component="span">
               Last day for Payements
             </p>
@@ -157,10 +159,34 @@ Last date to register for the event</p>
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "32px"}}>
+          <TimelineContent sx={{ py: "32px" }}>
             <p variant="h6" className="text-2xl md:text-lg" component="span">
               Start of Hackathon
             </p>
+          </TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
+            align="right"
+            className="text-white"
+            style={{ fontSize: "20px" }}
+          >
+            20 Dec
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
+            <TimelineDot color="primary">
+              <EmojiEventsIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "32px" }}>
+            <p variant="h6" className="text-2xl md:text-lg" component="span">
+              End of Hackathon
+            </p>
+            <p className="text-sm md:text-xs">Declaration of Results</p>
           </TimelineContent>
         </TimelineItem>
       </Timeline>

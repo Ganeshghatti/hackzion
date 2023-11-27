@@ -8,6 +8,7 @@ import {
   FaFacebook,
 } from "react-icons/fa6";
 import logo from "./HackZionLogo.png";
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 export default function Coordinator() {
   return (
@@ -17,8 +18,14 @@ export default function Coordinator() {
       style={{ backgroundColor: "#09162F" }}
     >
       <div className="flex md:items-center md:text-center flex-col w-2/5 pl-20 gap-6 md:w-11/12 md:pl-0">
-        <img src={logo} alt="" className="w-20" />
-        <p className="text-xl font-bold">Powered by AMC</p>
+        <a href="https://www.amcgroup.edu.in/home">
+          <p className="text-xl font-bold" style={{ color: "#018cff" }}>
+            About AMC institutions
+          </p>
+        </a>
+        <a href="https://maps.app.goo.gl/gezweCu224L2Y1Qh9">
+          <p className="text-xl font-bold"><LocationOnIcon/>View on Map</p>
+        </a>
         <div className="flex gap-3">
           <a href="https://www.facebook.com/profile.php?id=61554189680265">
             <FaFacebook className="social-icon text-white text-3xl" />

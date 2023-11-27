@@ -181,13 +181,13 @@ export default function Patrons() {
           >
             <img
               src="./Assets/mara.jpg"
-              className="w-full h-56 p-2"
+              className="w-full h-56 p-2 object-cover"
               style={{ border: "2px solid #018cff", borderRadius: "50%" }}
               alt=""
             />
           </div>
           <p className="text-xl md:text-lg font-bold text-center">
-            Dr. V. Mareeswari{" "}
+            Dr. V. Mareeswari
           </p>
           <p className="text-base md:text-sm font-medium text-center">
             Head of Department, CSE
