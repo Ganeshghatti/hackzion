@@ -15,7 +15,7 @@ export default function Rules() {
       >
         <li>
           First registration is free – here, the team must submit a theme and an
-          idea related to it. After the conclusion of registrations, 40 teams
+          idea related to it. After the conclusion of registrations, 30 teams
           will be shortlisted.
         </li>
         <li>

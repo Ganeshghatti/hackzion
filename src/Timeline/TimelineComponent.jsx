@@ -111,7 +111,7 @@ export default function TimelineComponent() {
               Uploading shortlisted teams
             </p>
             <p className="text-sm md:text-xs">
-              The screening committee will shortlist the teams, and the 40 best
+              The screening committee will shortlist the teams, and the 30 best
               ideas will be selected
             </p>
           </TimelineContent>
