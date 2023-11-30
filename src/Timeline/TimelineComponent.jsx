@@ -45,7 +45,7 @@ export default function TimelineComponent() {
               Registration starts
             </p>
             <p className="text-sm md:text-xs">
-              You can register by clicking on "Register Now" button given above
+              You can register by clicking on the "Register Now" button given above
             </p>
           </TimelineContent>
         </TimelineItem>
