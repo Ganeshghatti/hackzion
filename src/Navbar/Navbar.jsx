@@ -4,17 +4,31 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
 import "./Navbar.css";
 import Button from "@mui/material/Button";
+import { useSpring, animated } from "react-spring";
 
 export default function Navbar() {
   const [menu, setmenu] = useState(false);
   const menuf = () => {
     setmenu(!menu);
   };
+  const styles = useSpring({
+    from: {
+      opacity: 0,
+    },
+    to: {
+      opacity: 1,
+    },
+  });
   return (
     <nav
-      className="w-4/5 fixed top-6 flex justify-between px-10 items-center py-2 md:w-full md:top-0 z-50"
+      className="w-4/5 fixed top-9 flex justify-between px-10 items-center py-2 md:w-full md:top-0 z-50"
       style={{ gap: "10vw" }}
     >
+      <div className="sales-ribbon">
+        <p className="moving-text text-xl">
+          Registrations have been extended till <b>13th Dec,</b> 2023 9:00pm !!!
+        </p>
+      </div>
       {menu && (
         <>
           <div
@@ -48,15 +62,15 @@ export default function Navbar() {
                 CONTACT
               </a>
             </li>
-              <a href="https://forms.gle/yqieNHNwmJGrnBcE9">
-                <Button
-                  variant="contained"
-                  style={{ backgroundColor: "#018cff" }}
-                  className="hero-btn text-lg"
-                >
-                  Register Now!
-                </Button>
-              </a>
+            <a href="https://forms.gle/yqieNHNwmJGrnBcE9">
+              <Button
+                variant="contained"
+                style={{ backgroundColor: "#018cff" }}
+                className="hero-btn text-lg"
+              >
+                Register Now!
+              </Button>
+            </a>
           </ul>
         </>
       )}
@@ -80,16 +94,17 @@ export default function Navbar() {
         <li>
           <a href="/#contact">CONTACT</a>
         </li>
-          <a href="https://forms.gle/yqieNHNwmJGrnBcE9" target="_blank">
-            <Button
-              variant="contained"
-              style={{ backgroundColor: "#018cff" }}
-              className="hero-btn"
-            >
-              Register Now!
-            </Button>
-          </a>
+        <a href="https://forms.gle/yqieNHNwmJGrnBcE9" target="_blank">
+          <Button
+            variant="contained"
+            style={{ backgroundColor: "#018cff" }}
+            className="hero-btn"
+          >
+            Register Now!
+          </Button>
+        </a>
       </ul>
+
       <FaBarsStaggered
         className={`hidden cursor-pointer md:block ${
           !menu ? "block" : "hidden"

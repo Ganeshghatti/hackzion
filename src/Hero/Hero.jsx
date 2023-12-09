@@ -26,9 +26,7 @@ export default function Hero() {
       </p>
       <p className="hero-subheading">A 24 HOURS NATIONAL LEVEL HACKATHON</p>
       <p className="text-lg md:text-base font-bold hero-date">19 & 20 December 2023</p>
-      <p className="text-lg md:text-base font-light">
-        Registration Deadline : <b style={{ color: "#018cff" }}>10/12/2023</b>
-      </p>
+
       <a href="https://forms.gle/yqieNHNwmJGrnBcE9" target="_blank" className="mt-8">
         <Button
           variant="contained"
