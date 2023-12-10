@@ -72,7 +72,7 @@ export default function TimelineComponent() {
             className="text-white"
             style={{ fontSize: "20px" }}
           >
-            10 Dec
+            13 Dec
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -97,7 +97,7 @@ export default function TimelineComponent() {
             className="text-white"
             style={{ fontSize: "20px" }}
           >
-            13 Dec
+            14 Dec
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
