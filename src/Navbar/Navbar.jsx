@@ -28,7 +28,7 @@ export default function Navbar() {
   return (
     <nav
       className="w-4/5 fixed top-9 flex justify-between px-10 items-center py-2 md:w-full md:top-0 z-50 m-auto"
-      style={{ gap: "10vw", left: "10vw" }}
+      style={{ gap: "10vw" }}
     >
       {!isShortlisted && (
         <div className="sales-ribbon">

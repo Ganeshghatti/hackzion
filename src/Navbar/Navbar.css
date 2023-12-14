@@ -1,13 +1,19 @@
 nav {
   background-color: #0a162a !important;
   border: 1px solid #184671;
+  left: 10vw !important;
 }
 @media (min-width: 770px) {
   nav {
     border-radius: 20px;
   }
 }
-
+@media (max-width: 770px) {
+  nav {
+    left: 0 !important;
+    top: 0;
+  }
+}
 nav li:hover {
   color: #018cff;
 }
