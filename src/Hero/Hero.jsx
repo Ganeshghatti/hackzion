@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -27,15 +28,15 @@ export default function Hero() {
       <p className="hero-subheading">A 24 HOURS NATIONAL LEVEL HACKATHON</p>
       <p className="text-lg md:text-base font-bold hero-date">19 & 20 December 2023</p>
 
-      <a href="https://forms.gle/yqieNHNwmJGrnBcE9" target="_blank" className="mt-8">
+      <Link to="/shortlisted">
         <Button
           variant="contained"
           style={{ backgroundColor: "#018cff" }}
           className="hero-btn"
         >
-          Register Now!
+          Check Shortlisted Teams
         </Button>
-      </a>
+      </Link>
     </section>
   );
 }

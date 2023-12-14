@@ -5,6 +5,8 @@ import { FaXmark } from "react-icons/fa6";
 import "./Navbar.css";
 import Button from "@mui/material/Button";
 import { useSpring, animated } from "react-spring";
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const [menu, setmenu] = useState(false);
@@ -19,16 +21,29 @@ export default function Navbar() {
       opacity: 1,
     },
   });
+  const location = useLocation();
+
+  const isShortlisted = location.pathname === "/shortlisted";
+
   return (
     <nav
-      className="w-4/5 fixed top-9 flex justify-between px-10 items-center py-2 md:w-full md:top-0 z-50"
-      style={{ gap: "10vw" }}
+      className="w-4/5 fixed top-9 flex justify-between px-10 items-center py-2 md:w-full md:top-0 z-50 m-auto"
+      style={{ gap: "10vw", left: "10vw" }}
     >
-      <div className="sales-ribbon">
-        <p className="moving-text text-xl">
-          Registrations have been extended till <b>13th Dec,</b> 2023 9:00pm !!!
-        </p>
-      </div>
+      {!isShortlisted && (
+        <div className="sales-ribbon">
+          <Link to="/shortlisted">
+            <p className="moving-text text-xl text-white">
+              Shortlisted Teams have been released
+              <span className="font-bold" style={{ color: "#018cff" }}>
+                Click here&nbsp;
+              </span>
+              to check 
+            </p>
+          </Link>
+        </div>
+      )}
+
       {menu && (
         <>
           <div
@@ -62,15 +77,15 @@ export default function Navbar() {
                 CONTACT
               </a>
             </li>
-            <a href="https://forms.gle/yqieNHNwmJGrnBcE9">
+            <Link to="/shortlisted">
               <Button
                 variant="contained"
                 style={{ backgroundColor: "#018cff" }}
                 className="hero-btn text-lg"
               >
-                Register Now!
+                Check Shortlisted Teams
               </Button>
-            </a>
+            </Link>
           </ul>
         </>
       )}
@@ -94,15 +109,15 @@ export default function Navbar() {
         <li>
           <a href="/#contact">CONTACT</a>
         </li>
-        <a href="https://forms.gle/yqieNHNwmJGrnBcE9" target="_blank">
+        <Link to="/shortlisted">
           <Button
             variant="contained"
             style={{ backgroundColor: "#018cff" }}
             className="hero-btn"
           >
-            Register Now!
+            Check Shortlisted Teams
           </Button>
-        </a>
+        </Link>
       </ul>
 
       <FaBarsStaggered

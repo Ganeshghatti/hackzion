@@ -1,4 +1,4 @@
-import React, { useCallback,useEffect } from "react";
+import React, { useCallback, useEffect } from "react";
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 import Navbar from "./Navbar/Navbar";
@@ -11,6 +11,9 @@ import Footer from "./Footer/Footer";
 import tag from "./Assets/tag.png";
 import circle from "./Assets/circle.png";
 import Patrons from "./Patrons/Patrons";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import Shortlisted from "./Shortlisted/Shortlisted";
 
 export default function App() {
   const particlesInit = useCallback(async (engine) => {
@@ -105,7 +108,7 @@ export default function App() {
       if (hash) {
         const targetElement = document.querySelector(hash);
         if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
+          targetElement.scrollIntoView({ behavior: "smooth" });
         }
       }
     };
@@ -118,11 +121,11 @@ export default function App() {
       scrollToSection();
     };
 
-    window.addEventListener('hashchange', handleHashChange);
+    window.addEventListener("hashchange", handleHashChange);
 
     // Remove the event listener when the component is unmounted
     return () => {
-      window.removeEventListener('hashchange', handleHashChange);
+      window.removeEventListener("hashchange", handleHashChange);
     };
   }, []);
   return (
@@ -137,16 +140,15 @@ export default function App() {
         loaded={particlesLoaded}
         options={particleOptions}
       />
-      <div className="flex flex-col items-center">
+      <BrowserRouter>
         <Navbar />
-        <Hero />
-        <Themes />
-        <Rules />
-        <Timeline />
-        <Patrons />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/shortlisted" element={<Shortlisted />} />
+        </Routes>
         <Coordinator />
         <Footer />
-      </div>
+      </BrowserRouter>
     </div>
   );
 }

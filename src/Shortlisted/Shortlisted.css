@@ -1,0 +1,17 @@
+.Shortlisted-table {
+    width: 75% !important;
+  }
+  
+  @media (max-width: 867px) {
+    .Shortlisted-table {
+      width: 90% !important;
+    }
+  }
+  
+.css-1ygcj2i-MuiTableCell-root,
+.css-1ex1afd-MuiTableCell-root {
+  color: white !important;
+}
+.css-1ygcj2i-MuiTableCell-root {
+  font-size: x-large !important;
+}
