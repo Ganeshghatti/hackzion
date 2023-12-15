@@ -388,7 +388,7 @@ export default function TimelineComponent() {
             className="text-white"
             style={{ fontSize: "20px" }}
           >
-            20 Dec , 5:00AM
+            20 Dec , 11:15AM
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
