@@ -6,7 +6,7 @@ export default function Patrons() {
       id="patrons"
       className="flex flex-col gap-8 w-full items-center py-14"
     >
-      <h2>Cheif Patrons</h2>
+      <h2>Chief Patrons</h2>
       <div className="w-4/5 md:w-11/12 flex justify-between lg:justify-center md:justify-center items-center md:flex-wrap lg:flex-wrap sm:flex-col lg:gap-10 md:gap-10">
         <div className="flex flex-col items-center justify-center w-1/5 lg:w-2/5 md:w-4/5">
           <div
