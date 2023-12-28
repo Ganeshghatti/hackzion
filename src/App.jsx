@@ -144,7 +144,7 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/shortlisted" element={<Shortlisted />} />
+          {/* <Route path="/shortlisted" element={<Shortlisted />} /> */}
         </Routes>
         <Coordinator />
         <Footer />

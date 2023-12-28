@@ -1,0 +1,59 @@
+.winners-card {
+    overflow: hidden;
+    margin: 20px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #0b1936 !important;
+    box-shadow: 0px 10px 20px #010a12;
+    border: 1px solid #293c4b;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 0 0 40px 0;
+  }
+  
+  .winners-card:hover {
+    border: 1px solid #2f74b4;
+    transform: translateY(-2px);
+    opacity: 0.8;
+  }
+  @media (max-width: 770px) {
+    .winners-card p {
+      text-align: center;
+    }
+  }
+  .prize-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.prz-box {
+    width: 300px;
+    margin: 20px 30px;
+    padding: 20px;
+    border: 1px solid #018cff;
+    text-align: center;
+    background-color: #010a12;
+    box-shadow: 0px 10px 20px #010a12;
+    transition: all .3s;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.prz-box:hover {
+    box-shadow: 0px 10px 20px #010a12;
+    background-color: #0d141b;
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.prz-box img {
+    padding: 15px;
+}
+
+.prz-box p {
+    font-size: 18px;
+    font-weight: 400;
+}

@@ -26,17 +26,19 @@ export default function Hero() {
         Think, Code, Innovate
       </p>
       <p className="hero-subheading">A 24 HOURS NATIONAL LEVEL HACKATHON</p>
-      <p className="text-lg md:text-base font-bold hero-date">19 & 20 December 2023</p>
+      <p className="text-lg md:text-base font-bold hero-date">
+        19 & 20 December 2023
+      </p>
 
-      <Link to="/shortlisted">
+      <a href="/#winners">
         <Button
           variant="contained"
           style={{ backgroundColor: "#018cff" }}
-          className="hero-btn"
+          className="hero-btn mt-2"
         >
-          Check Shortlisted Teams
+          Check Who Won!
         </Button>
-      </Link>
+      </a>
     </section>
   );
 }

@@ -10,7 +10,7 @@ export default function Patrons() {
       <div className="w-4/5 md:w-11/12 flex justify-between lg:justify-center md:justify-center items-center md:flex-wrap lg:flex-wrap sm:flex-col lg:gap-10 md:gap-10">
         <div className="flex flex-col items-center justify-center w-1/5 lg:w-2/5 md:w-4/5">
           <div
-            className="w-56 h-56 "
+            className="w-56 h-56"
             style={{
               boxShadow: "0px 10px 20px #0b1936",
               backgroundColor: "#018cff",

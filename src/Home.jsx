@@ -5,12 +5,14 @@ import Rules from "./Rules/Rules";
 import Timeline from "./Timeline/TimelineComponent";
 import Patrons from "./Patrons/Patrons";
 import Coordinator from "./Coordinator/Coordinator";
+import Winners from "./Winners/Winners";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center">
       <Hero />
-      <Themes />
+      <Winners/>
+      {/* <Themes /> */}
       <Rules />
       <Timeline />
       <Patrons />

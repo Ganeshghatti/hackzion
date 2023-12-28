@@ -30,7 +30,7 @@ export default function Navbar() {
       className="w-4/5 fixed top-9 flex justify-between px-10 items-center py-2 md:w-full md:top-0 z-50 m-auto"
       style={{ gap: "10vw" }}
     >
-      {!isShortlisted && (
+      {/* {!isShortlisted && (
         <div className="sales-ribbon">
           <Link to="/shortlisted">
             <p className="moving-text text-xl text-white">
@@ -42,7 +42,7 @@ export default function Navbar() {
             </p>
           </Link>
         </div>
-      )}
+      )} */}
 
       {menu && (
         <>
@@ -58,8 +58,8 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="/#themes" onClick={menuf}>
-                THEMES
+              <a href="/#winners" onClick={menuf}>
+                WINNERS
               </a>
             </li>
             <li>
@@ -77,15 +77,15 @@ export default function Navbar() {
                 CONTACT
               </a>
             </li>
-            <Link to="/shortlisted">
+            <a href="/#winners">
               <Button
                 variant="contained"
                 style={{ backgroundColor: "#018cff" }}
                 className="hero-btn text-lg"
               >
-                Check Shortlisted Teams
+                Winners{" "}
               </Button>
-            </Link>
+            </a>
           </ul>
         </>
       )}
@@ -98,7 +98,7 @@ export default function Navbar() {
           <a href="/#hero">HOME</a>
         </li>
         <li>
-          <a href="/#themes">THEMES</a>
+          <a href="/#winners">WINNERS</a>
         </li>
         <li>
           <a href="/#rules">RULES</a>
@@ -109,15 +109,15 @@ export default function Navbar() {
         <li>
           <a href="/#contact">CONTACT</a>
         </li>
-        <Link to="/shortlisted">
+        <a href="/#winners">
           <Button
             variant="contained"
             style={{ backgroundColor: "#018cff" }}
             className="hero-btn"
           >
-            Check Shortlisted Teams
+            Winners{" "}
           </Button>
-        </Link>
+        </a>
       </ul>
 
       <FaBarsStaggered
